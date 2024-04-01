@@ -20,7 +20,6 @@ app.use(cors());
 app.use("/", authRouter);
 app.use("/home", homeRouter);
 
-
 //Connect To Database
 connectDB({})
 
